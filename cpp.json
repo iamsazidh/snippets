@@ -53,6 +53,26 @@
         "for(int i = 0; i < n; i++) cin >> arr[i];"
 		],
 		"description": "Log output to console"
+	},
+	"Test case printing": {
+		"prefix": "logc",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"int main(){",
+				"    int t;",
+				"    cin >> t;",
+				"    for(int i = 1; i <= t; i++){",
+				"",
+				"",
+				"        cout << \"Case \" << i << \": \" << endl;",
+				"    }",
+
+				"return 0;",
+			"}"
+		],
+		"description": "Log output to console"
 	}
 }
 
